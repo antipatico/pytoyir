@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 rm -rf ./datasets/NPL/index/
-./gavi.py index npl
+./pytoyir.py index npl
 rm -rf ./datasets/LISA/index/
-./gavi.py index lisa
+./pytoyir.py index lisa
