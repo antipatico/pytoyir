@@ -1,0 +1,234 @@
+~~~~~~~~~ STEMMING ANALYZER USING PORTER: ~~~~~~~~~
+
+=== BM25F ===
+./gavi.py benchmark lisa --interpolated
+Mean: 0.2621
+./gavi.py benchmark lisa --recall=all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.2420
+At recall level 0.2 the average precision is 0.2648
+At recall level 0.3 the average precision is 0.2774
+At recall level 0.4 the average precision is 0.2181
+At recall level 0.5 the average precision is 0.1760
+At recall level 0.6 the average precision is 0.1681
+At recall level 0.7 the average precision is 0.1523
+At recall level 0.8 the average precision is 0.1084
+At recall level 0.9 the average precision is 0.0824
+At recall level 1.0 the average precision is 0.0557
+
+./gavi.py benchmark npl --interpolated
+Mean: 0.2976
+./gavi.py benchmark npl --recall=all
+At recall level 0.0 the average precision is 1.0000
+At recall level 1.0 the average precision is 0.3723
+At recall level 2.0 the average precision is 0.3739
+At recall level 3.0 the average precision is 0.3339
+At recall level 4.0 the average precision is 0.2944
+At recall level 5.0 the average precision is 0.2359
+At recall level 6.0 the average precision is 0.1969
+At recall level 7.0 the average precision is 0.1534
+At recall level 8.0 the average precision is 0.1130
+At recall level 9.0 the average precision is 0.0654
+At recall level 10.0 the average precision is 0.0320
+
+
+=== TF-IDF ===
+./gavi.py benchmark lisa —tf-idf —interpolated
+Mean: 0.2151
+./gavi.py benchmark lisa —tf-idf —recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.1858
+At recall level 0.2 the average precision is 0.1762
+At recall level 0.3 the average precision is 0.1926
+At recall level 0.4 the average precision is 0.1490
+At recall level 0.5 the average precision is 0.1196
+At recall level 0.6 the average precision is 0.1236
+At recall level 0.7 the average precision is 0.1077
+At recall level 0.8 the average precision is 0.0785
+At recall level 0.9 the average precision is 0.0662
+At recall level 1.0 the average precision is 0.0551
+
+./gavi.py benchmark npl —tf-idf —interpolated
+Mean: 0.2244
+./gavi.py benchmark npl —tf-idf —recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.2545
+At recall level 0.2 the average precision is 0.2513
+At recall level 0.3 the average precision is 0.2131
+At recall level 0.4 the average precision is 0.1704
+At recall level 0.5 the average precision is 0.1422
+At recall level 0.6 the average precision is 0.1099
+At recall level 0.7 the average precision is 0.0874
+At recall level 0.8 the average precision is 0.0710
+At recall level 0.9 the average precision is 0.0531
+At recall level 1.0 the average precision is 0.0327
+
+
+=== Frequency ===
+./gavi.py benchmark lisa —freq —interpolated
+Mean: 0.1416
+./gavi.py benchmark lisa —freq —recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.1084
+At recall level 0.2 the average precision is 0.0798
+At recall level 0.3 the average precision is 0.0707
+At recall level 0.4 the average precision is 0.0561
+At recall level 0.5 the average precision is 0.0379
+At recall level 0.6 the average precision is 0.0406
+At recall level 0.7 the average precision is 0.0370
+At recall level 0.8 the average precision is 0.0318
+At recall level 0.9 the average precision is 0.0281
+At recall level 1.0 the average precision is 0.0211
+
+./gavi.py benchmark npl —freq —interpolated
+Mean: 0.1916
+./gavi.py benchmark npl —freq —recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.2092
+At recall level 0.2 the average precision is 0.1949
+At recall level 0.3 the average precision is 0.1554
+At recall level 0.4 the average precision is 0.1315
+At recall level 0.5 the average precision is 0.1048
+At recall level 0.6 the average precision is 0.0831
+At recall level 0.7 the average precision is 0.0661
+At recall level 0.8 the average precision is 0.0517
+At recall level 0.9 the average precision is 0.0378
+At recall level 1.0 the average precision is 0.0251
+
+
+
+
+~~~~~~~~~ STEMMING ANALYZER USING PORTER2: ~~~~~~~~~
+
+=== BM25F ===
+./gavi.py benchmark lisa —interpolated
+Mean: 0.2615
+./gavi.py benchmark lisa —recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.2407
+At recall level 0.2 the average precision is 0.2659
+At recall level 0.3 the average precision is 0.2775
+At recall level 0.4 the average precision is 0.2150
+At recall level 0.5 the average precision is 0.1757
+At recall level 0.6 the average precision is 0.1678
+At recall level 0.7 the average precision is 0.1526
+At recall level 0.8 the average precision is 0.1081
+At recall level 0.9 the average precision is 0.0823
+At recall level 1.0 the average precision is 0.0541
+
+./gavi.py benchmark npl —interpolated 	
+Mean: 0.2989
+./gavi.py benchmark npl —recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.3711
+At recall level 0.2 the average precision is 0.3809
+At recall level 0.3 the average precision is 0.3344
+At recall level 0.4 the average precision is 0.2942
+At recall level 0.5 the average precision is 0.2374
+At recall level 0.6 the average precision is 0.1958
+At recall level 0.7 the average precision is 0.1535
+At recall level 0.8 the average precision is 0.1149
+At recall level 0.9 the average precision is 0.0667
+At recall level 1.0 the average precision is 0.0332
+
+
+
+~~~~~~~~~ LANGUAGE ANALYZER: ~~~~~~~~~
+
+=== BM25F ===
+./gavi.py benchmark lisa --interpolated
+Mean: 0.2672
+./gavi.py benchmark lisa --recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.2387
+At recall level 0.2 the average precision is 0.2600
+At recall level 0.3 the average precision is 0.2871
+At recall level 0.4 the average precision is 0.2309
+At recall level 0.5 the average precision is 0.1933
+At recall level 0.6 the average precision is 0.1794
+At recall level 0.7 the average precision is 0.1665
+At recall level 0.8 the average precision is 0.1088
+At recall level 0.9 the average precision is 0.0841
+At recall level 1.0 the average precision is 0.0507
+
+./gavi.py benchmark npl --interpolated
+Mean: 0.3038
+./gavi.py benchmark npl --recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.3731
+At recall level 0.2 the average precision is 0.3828
+At recall level 0.3 the average precision is 0.3483
+At recall level 0.4 the average precision is 0.3053
+At recall level 0.5 the average precision is 0.2468
+At recall level 0.6 the average precision is 0.2010
+At recall level 0.7 the average precision is 0.1572
+At recall level 0.8 the average precision is 0.1180
+At recall level 0.9 the average precision is 0.0679
+At recall level 1.0 the average precision is 0.0337
+
+
+=== TF-IDF ===
+./gavi.py benchmark lisa --tf-idf --interpolated
+Mean: 0.2208
+./gavi.py benchmark lisa --tf-idf --recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.1935
+At recall level 0.2 the average precision is 0.1913
+At recall level 0.3 the average precision is 0.1947
+At recall level 0.4 the average precision is 0.1593
+At recall level 0.5 the average precision is 0.1294
+At recall level 0.6 the average precision is 0.1281
+At recall level 0.7 the average precision is 0.1099
+At recall level 0.8 the average precision is 0.0792
+At recall level 0.9 the average precision is 0.0679
+At recall level 1.0 the average precision is 0.0540
+
+./gavi.py benchmark npl --tf-idf --interpolated
+Mean: 0.2250
+./gavi.py benchmark npl --tf-idf --recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.2593
+At recall level 0.2 the average precision is 0.2480
+At recall level 0.3 the average precision is 0.2094
+At recall level 0.4 the average precision is 0.1729
+At recall level 0.5 the average precision is 0.1426
+At recall level 0.6 the average precision is 0.1117
+At recall level 0.7 the average precision is 0.0897
+At recall level 0.8 the average precision is 0.0729
+At recall level 0.9 the average precision is 0.0554
+At recall level 1.0 the average precision is 0.0336
+
+
+=== Frequency ===
+./gavi.py benchmark lisa --freq --interpolated
+Mean: 0.1493
+./gavi.py benchmark lisa --freq --recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.1264
+At recall level 0.2 the average precision is 0.1013
+At recall level 0.3 the average precision is 0.0816
+At recall level 0.4 the average precision is 0.0658
+At recall level 0.5 the average precision is 0.0445
+At recall level 0.6 the average precision is 0.0458
+At recall level 0.7 the average precision is 0.0439
+At recall level 0.8 the average precision is 0.0336
+At recall level 0.9 the average precision is 0.0291
+At recall level 1.0 the average precision is 0.0218
+
+./gavi.py benchmark npl --freq --interpolated
+Mean: 0.1947
+./gavi.py benchmark npl --freq --recall all
+At recall level 0.0 the average precision is 1.0000
+At recall level 0.1 the average precision is 0.2154
+At recall level 0.2 the average precision is 0.1973
+At recall level 0.3 the average precision is 0.1637
+At recall level 0.4 the average precision is 0.1327
+At recall level 0.5 the average precision is 0.1077
+At recall level 0.6 the average precision is 0.0884
+At recall level 0.7 the average precision is 0.0688
+At recall level 0.8 the average precision is 0.0528
+At recall level 0.9 the average precision is 0.0396
+At recall level 1.0 the average precision is 0.0246
+
+
+
